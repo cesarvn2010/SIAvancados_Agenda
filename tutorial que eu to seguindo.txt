@@ -5,3 +5,5 @@ instalar npm install ionic2-calendar --save
 https://www.npmjs.com/package/ionic2-calendar
 
 npm install moment -S
+
+teste
