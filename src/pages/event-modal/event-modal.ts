@@ -22,7 +22,9 @@ export class EventModalPage {
   constructor(public navCtrl: NavController,
      public navParams: NavParams,
      private viewCtrl: ViewController) {
+    
     let preselectedDate = moment(this.navParams.get('selectedDay')).format();
+   // preselectedDate = this.formatDate(preselectedDate);
     this.event.startTime = preselectedDate;
     this.event.endTime = preselectedDate;
   }

@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, ModalController, AlertController } from 'ionic-angular';
 import * as moment from 'moment';
-import { NgCalendarModule  } from 'ionic2-calendar';
 
 @Component({
   selector: 'page-home',
