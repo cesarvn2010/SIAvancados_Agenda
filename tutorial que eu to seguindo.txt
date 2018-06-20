@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=GOPEV3sE36o
+
+instalar npm install ionic2-calendar --save
+
+https://www.npmjs.com/package/ionic2-calendar
+
+npm install moment -S
