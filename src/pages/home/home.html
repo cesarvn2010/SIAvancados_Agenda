@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      {{view.Title}}
+      {{viewTitle}}
     </ion-title>
     <ion-buttons end>
       <button ion-button icon-only (click)="addEvent()">
@@ -15,9 +15,9 @@
   <calendar [eventSource]="eventSource"
   [calendarMode]="calendar.mode"
   [currentDate]="calendar.currentDate"
-  [onEventSelected]="onEventSelected($event)"
-  [onTitleChanged]="onViewTitleChange($event)"
-  [onTimeSelected]="onTimeSelected($event)"
+  (EventSelected)="onEventSelected($event)"
+  (TitleChanged)="onViewTitleChange($event)"
+  (TimeSelected)="onTimeSelected($event)"
   step="30"
   class="calendar">
     
